@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="settings-screen-container">
+        <div class="settings-tabs">
+            <div class="tab" id="customize_tab" data-isfocused="true">
+                <p>Customize</p>
+            </div>
+            <div class="tab" id="cheats_tab" data-isfocused="false">
+                <p>Cheats</p>
+            </div>
+            <div class="tab" id="about_tab" data-isfocused="false">
+                <p>About</p>
+            </div>
+        </div>
+    </div>
+    <div class="settings-container settings-container-1" id="">
+        <div class="options">
+            <p class="settings-option-label">Edit Mode</p>
+            <div class="toggle" id="edit_mode_toggle" data-istoggled="false"></div>
+        </div>
+        <div class="options">
+            <p class="settings-option-label">Double Points</p>
+            <div class="toggle" id="double_points_toggle" data-istoggled="false"></div>
+        </div>
+        <div class="options">
+            <p class="settings-option-label">Player Count</p>
+            <div id="remove_player" class="click-toggle"> - </div>
+            <p class="player-count" id="player_count">3</p>
+            <div id="add_player" class="click-toggle"> + </div>
+        </div>
+        <div class="options">
+            <p class="settings-option-label t">Question Length</p>
+            <div id="remove_player" class="click-toggle"> - </div>
+            <p class="player-count" id="player_count">3</p>
+            <div id="add_player" class="click-toggle"> + </div>
+        </div>
+    </div>
+    <div class="settings-container settings-container-2" id="cheats_settings_menu">
+        <div class="options">
+            <p class="settings-option-label">Edit Mode</p>
+            <div class="toggle" id="edit_mode_toggle" data-istoggled="false"></div>
+        </div>
+        <div class="options">
+            <p class="settings-option-label">Double Points</p>
+            <div class="toggle" id="double_points_toggle" data-istoggled="false"></div>
+        </div>
+        <div class="options">
+            <p class="settings-option-label">Disable Time Limit</p>
+            <div class="toggle" id="double_points_toggle" data-istoggled="false"></div>
+        </div>
+        <div class="options">
+            <p class="settings-option-label">Player Count</p>
+            <div id="remove_player" class="click-toggle"> - </div>
+            <p class="player-count" id="player_count">3</p>
+            <div id="add_player" class="click-toggle"> + </div>
+        </div>
+        <div class="options">
+            <p class="settings-option-label t">Question Length</p>
+            <div id="remove_player" class="click-toggle"> - </div>
+            <p class="player-count" id="player_count">3</p>
+            <div id="add_player" class="click-toggle"> + </div>
+        </div>
+    </div>
+    <!-- <div class="settings-tab-bottom">
+        <div class="tab">
+            <p>SAVE</p>
+        </div>
+        <div class="tab">
+            <p>DELETE</p>
+        </div>
+        <div class="tab">
+            <p>LOAD</p>
+        </div>
+    </div> -->
+    <script src="script.js"></script>
+</body>
+</html>
